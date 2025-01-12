@@ -121,10 +121,10 @@ class Game:
         #Setup wanted items
         #nigel = Character("Nigel", "le maître des secrets", bridge, ["Voulez-vous connaître un secret ?", "J'échange des secrets contre des objets précieux..."])
         nigel.wanted_items = {"cristal": "Ah ! Le cristal magique ! Voici un secret en échange : le premier chiffre du code est 7.", "grimoire": "Un ancien grimoire ! Je peux vous dire que Julian a un rôle bien différent des autres."}
-        julian.wanted_items = {"sac": "Maintenant ce que je peux te dire c'est que le chiffre 5 est le chiffre fétiche de Legend"}
-        scarlette.wanted_items = {"pierre": "Legend aime beaucoup les trèfles à 4 feuilles"}
-        jovan.wanted_items = {"papillon": "Aiko connait les secrets de Caraval, elle pourra te donner la fin du code"}
-        aiko.wanted_items = {"miroir": "Le château de Caraval n'est pas un simple lieu, il donne accès à la destiné de Scarlette" , "robe" : "Le deuxième chiffre est 3."}
+        julian.wanted_items = {"sac": "Maintenant ce que je peux te dire c'est que le chiffre 5 est le chiffre fétiche de Legend."}
+        scarlette.wanted_items = {"pierre": "Legend aime beaucoup les trèfles à 4 feuilles."}
+        jovan.wanted_items = {"papillon": "Aiko connait les secrets de Caraval, elle pourra te donner la fin du code!"}
+        aiko.wanted_items = {"miroir": "Le château de Caraval n'est pas un simple lieu, il donne accès à la destiné de Scarlette." , "robe" : "Le deuxième chiffre est 3."}
 
         #bridge.characters[nigel.name.lower()]= nigel
 

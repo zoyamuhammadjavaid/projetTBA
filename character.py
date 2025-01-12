@@ -46,8 +46,8 @@ class Character:
         Returns:
             bool: True si le personnage s'est déplacé, False sinon
         """
-        # 50% de chance de se déplacer
-        if random.random() < 0.5:
+        # 40% de chance de se déplacer
+        if random.random() < 0.4:
             # Récupérer toutes les sorties possibles (non None)
             possible_exits = [direction for direction, room in self.current_room.exits.items() 
                             if room is not None]
