@@ -85,15 +85,15 @@ class Game:
         #Setup items
 
         sword = Item("épée", "une épée magique qui brille d'une lueur bleue", 2)
-        book = Item("grimoire", "un ancien livre de sorts poussiéreux", 1)
+        book = Item("grimoire", "un ancien livre de sorts poussiéreux", 0.5)
         key = Item("clé", "une clé en or massif finement ciselée", 0.1)
         potion = Item("potion", "une fiole contenant un liquide verdâtre bouillonnant", 0.3)
         crystal = Item("cristal", "un cristal qui pulse d'une étrange énergie", 0.5)
-        stone = Item("pierre", "la pierre rouge de la famille Dragna", 3)
+        stone = Item("pierre", "la pierre rouge de la famille Dragna", 1.5)
         bag = Item("sac", "le fameux sac de Scarlette, un sac infini", 0.9)
-        butterfly = Item("papillon" , "le papillon vert est le symbole du jeu de cette année" , 1)
-        mirror = Item("miroir" , "Le miroir murmure des fragments du passé, teintés de mystère. " , 3)
-        dress = Item("robe" , "La robe offerte par Legend à Scarlette à son arrivée. " , 3)
+        butterfly = Item("papillon" , "le papillon vert est le symbole du jeu de cette année" , 0.1)
+        mirror = Item("miroir" , "Le miroir murmure des fragments du passé, teintés de mystère. " , 1.7)
+        dress = Item("robe" , "La robe offerte par Legend à Scarlette à son arrivée. " , 1.8)
 
         # Ajouter les items dans les rooms
         cottage.inventory = {book, potion}

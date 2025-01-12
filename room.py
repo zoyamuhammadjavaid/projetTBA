@@ -67,13 +67,13 @@ class Room:
         """Retourne une description du contenu de la pièce (objets et personnages)"""
         inventory_str = "\n"
     
-        # Vérifier les objets
+        # On vérifier les objets
         if self.inventory:
             inventory_str += "Vous voyez les objets suivants:\n"
             for item in self.inventory:
                 inventory_str += f"\t- {item}\n"
     
-        # Vérifier les personnages
+        # On vérifier les personnages
         if self.characters:
             inventory_str += "\nVous voyez les personnes suivantes:\n"
             for character in self.characters.values():
